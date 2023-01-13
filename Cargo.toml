@@ -1,0 +1,9 @@
+[package]
+name = "librypt-kap-dh"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+librypt-int = { version = "0.1", git = "https://www.github.com/librypt/librypt-int" }
+librypt-kap = { version = "0.1", git = "https://www.github.com/librypt/librypt-kap" }
+librypt-entropy = { version = "0.1", git = "https://www.github.com/librypt/librypt-entropy" }
